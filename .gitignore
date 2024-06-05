@@ -1,0 +1,15 @@
+#Ignora el entorno virtual
+ejemplo1/
+
+#ingorar el cache
+__pycache__/
+
+*.pyc
+*.pyo
+
+#MacOS ignore
+.DS_Store
+
+#evarioment ignore
+.env
+.venv
