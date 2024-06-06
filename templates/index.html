@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
     <h1>Formulario de Contacto</h1>
+    <label for="">Alan Hernandez H 9 "B" </label>
     <form action="/submit" method="post">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name" required>
