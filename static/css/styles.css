@@ -1,12 +1,12 @@
 body {
-    background-image: url('/src/python.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
 }
 
 form {
-    background: rgba(255, 255, 255, 0.8);
+    background-image: url('../images/python.png');
+    background-size: cover;  /* Ajusta el tamaño de la imagen de fondo */
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
